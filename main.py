@@ -20,7 +20,7 @@ async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh)
 
 @bot.command()
-async def func(ctx):
+async def gen_passwr(ctx):
     await ctx.send(gen_pass(10))
 
 @bot.command()
